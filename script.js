@@ -1300,7 +1300,7 @@ let elementsArray = [
 ]
 
 const elements = document.getElementById('elements');
-
+console.log(elements);
 function renderElements () {
 	elements.innerHTML = '';
 
