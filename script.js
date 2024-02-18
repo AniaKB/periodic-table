@@ -1300,3 +1300,9 @@ const elements = [
 ]
 
 const element = document.getElementById("elements"); 
+
+function renderElement() {
+  elements.forEach((item, index) =>  {
+  const listElement = document.createElement('li');
+  } )
+}
