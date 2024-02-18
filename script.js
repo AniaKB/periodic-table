@@ -1,4 +1,4 @@
-const elements = [
+let elementsArray = [
   {
     element: 'Hydrogen',
     abbreviation: 'H',
@@ -1298,3 +1298,22 @@ const elements = [
     electrons: ''
   },
 ]
+
+const elements = document.getElementById('elements');
+
+function renderElements () {
+	elements.innerHTML = '';
+
+	elementsArray.forEach((element) => {
+  	const listElement = document.createElement('li');
+
+    const text = document.createElement('span');
+    text.textContent = element.element;
+    text.className = 'element';
+    listElement.appendChild(text);
+
+    elements.appendChild(listElement);
+  });
+}
+
+renderElements();
