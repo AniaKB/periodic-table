@@ -1308,7 +1308,7 @@ function renderElements () {
   	const listElement = document.createElement('li');
 
     const text = document.createElement('span');
-    text.textContent = element.element;
+    text.textContent = element.abbreviation;
     text.className = 'element';
     listElement.appendChild(text);
 
