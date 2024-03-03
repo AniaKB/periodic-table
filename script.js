@@ -5,10 +5,10 @@ let elementsArray = [
     type: 'Nonmetal',
     state: 'Gas',
     atomicNumber: 1,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Helium',
@@ -16,10 +16,10 @@ let elementsArray = [
     type: 'Noble Gas',
     state: 'Gas',
     atomicNumber: 2,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Lithium',
@@ -27,10 +27,10 @@ let elementsArray = [
     type: 'Alkali Metal',
     state: '',
     atomicNumber: 3,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Beryllium',
@@ -38,10 +38,10 @@ let elementsArray = [
     type: 'Alkaline Earth',
     state: '',
     atomicNumber: 4,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Boron',
@@ -49,10 +49,10 @@ let elementsArray = [
     type: 'Metalloid',
     state: '',
     atomicNumber: 5,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Carbon',
@@ -60,10 +60,10 @@ let elementsArray = [
     type: 'Nonmetal',
     state: '',
     atomicNumber: 6,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Nitrogen',
@@ -71,10 +71,10 @@ let elementsArray = [
     type: 'Nonmetal',
     state: '',
     atomicNumber: 7,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Oxygen',
@@ -82,10 +82,10 @@ let elementsArray = [
     type: 'Nonmetal',
     state: '',
     atomicNumber: 8,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Fluorine',
@@ -93,10 +93,10 @@ let elementsArray = [
     type: 'Halogen',
     state: '',
     atomicNumber: 9,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Neon',
@@ -104,10 +104,10 @@ let elementsArray = [
     type: 'Noble Gas',
     state: 'Gas',
     atomicNumber: 10,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Sodium',
@@ -115,10 +115,10 @@ let elementsArray = [
     type: 'Alkali Metal',
     state: '',
     atomicNumber: 11,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Magnesium',
@@ -126,10 +126,10 @@ let elementsArray = [
     type: 'Alkaline Earth',
     state: '',
     atomicNumber: 12,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Aluminum',
@@ -137,10 +137,10 @@ let elementsArray = [
     type: 'Basic Metal',
     state: 'Solid',
     atomicNumber: 13,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Silicon',
@@ -148,10 +148,10 @@ let elementsArray = [
     type: 'Metalloid',
     state: '',
     atomicNumber: 14,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Phosphorus',
@@ -159,10 +159,10 @@ let elementsArray = [
     type: 'Nonmetal',
     state: '',
     atomicNumber: 15,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Sulfur',
@@ -170,10 +170,10 @@ let elementsArray = [
     type: 'Nonmetal',
     state: '',
     atomicNumber: 16,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Chlorine',
@@ -181,10 +181,10 @@ let elementsArray = [
     type: 'Halogen',
     state: '',
     atomicNumber: 17,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Argon',
@@ -192,10 +192,10 @@ let elementsArray = [
     type: 'Noble Gas',
     state: '',
     atomicNumber: 18,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Potassium',
@@ -203,10 +203,10 @@ let elementsArray = [
     type: 'Alkali Metal',
     state: '',
     atomicNumber: 19,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Calcium',
@@ -214,10 +214,10 @@ let elementsArray = [
     type: 'Alkaline Earth',
     state: '',
     atomicNumber: 20,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Scandium',
@@ -225,10 +225,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 21,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Titanium',
@@ -236,10 +236,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: 'Solid',
     atomicNumber: 22,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Vanadium',
@@ -247,10 +247,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 23,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Chromium',
@@ -258,10 +258,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 24,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Manganese',
@@ -269,10 +269,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 25,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Iron',
@@ -280,10 +280,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 26,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Cobalt',
@@ -291,10 +291,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 27,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Nickel',
@@ -302,10 +302,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 28,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Copper',
@@ -313,10 +313,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 29,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Zinc',
@@ -324,10 +324,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 30,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Gallium',
@@ -335,10 +335,10 @@ let elementsArray = [
     type: 'Basic Metal',
     state: '',
     atomicNumber: 31,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Germanium',
@@ -346,10 +346,10 @@ let elementsArray = [
     type: 'Metalloid',
     state: '',
     atomicNumber: 32,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Arsenic',
@@ -357,10 +357,10 @@ let elementsArray = [
     type: 'Metalloid',
     state: '',
     atomicNumber: 33,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Selenium',
@@ -368,10 +368,10 @@ let elementsArray = [
     type: 'Nonmetal',
     state: '',
     atomicNumber: 34,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Bromine',
@@ -379,10 +379,10 @@ let elementsArray = [
     type: 'Halogen',
     state: '',
     atomicNumber: 35,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Krypton',
@@ -390,10 +390,10 @@ let elementsArray = [
     type: 'Noble Gas',
     state: '',
     atomicNumber: 36,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Rubidium',
@@ -401,10 +401,10 @@ let elementsArray = [
     type: 'Alkali Metal',
     state: '',
     atomicNumber: 37,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Strontium',
@@ -412,10 +412,10 @@ let elementsArray = [
     type: 'Alkaline Earth',
     state: '',
     atomicNumber: 38,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Yttrium',
@@ -423,10 +423,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 39,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Zirconium',
@@ -434,10 +434,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 40,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Niobium',
@@ -445,10 +445,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 41,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Molybdenum',
@@ -456,10 +456,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 42,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Technetium',
@@ -467,10 +467,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 43,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Ruthenium',
@@ -478,10 +478,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 44,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Rhodium',
@@ -489,10 +489,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 45,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Palladium',
@@ -500,10 +500,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 46,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Silver',
@@ -511,10 +511,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 47,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Cadmium',
@@ -522,10 +522,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 48,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Indium',
@@ -533,10 +533,10 @@ let elementsArray = [
     type: 'Basic Metal',
     state: '',
     atomicNumber: 49,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Tin',
@@ -544,10 +544,10 @@ let elementsArray = [
     type: 'Basic Metal',
     state: '',
     atomicNumber: 50,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Antimony',
@@ -555,10 +555,10 @@ let elementsArray = [
     type: 'Metalloid',
     state: '',
     atomicNumber: 51,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Tellurium',
@@ -566,10 +566,10 @@ let elementsArray = [
     type: 'Metalloid',
     state: '',
     atomicNumber: 52,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Iodine',
@@ -577,10 +577,10 @@ let elementsArray = [
     type: 'Halogen',
     state: '',
     atomicNumber: 53,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Xenon',
@@ -588,10 +588,10 @@ let elementsArray = [
     type: 'Noble Gas',
     state: '',
     atomicNumber: 54,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Cesium',
@@ -599,10 +599,10 @@ let elementsArray = [
     type: 'Alkali Metal',
     state: '',
     atomicNumber: 55,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Barium',
@@ -610,10 +610,10 @@ let elementsArray = [
     type: 'Alkaline Earth',
     state: '',
     atomicNumber: 56,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Hafnium',
@@ -621,10 +621,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 72,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Tantalum',
@@ -632,10 +632,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 73,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Tungsten',
@@ -643,10 +643,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 74,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Rhenium',
@@ -654,10 +654,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 75,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Osmium',
@@ -665,10 +665,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 76,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Iridium',
@@ -676,10 +676,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 77,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Platinum',
@@ -687,10 +687,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 78,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Gold',
@@ -698,10 +698,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 79,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Mercury',
@@ -709,10 +709,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 80,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Thallium',
@@ -720,10 +720,10 @@ let elementsArray = [
     type: 'Basic Metal',
     state: '',
     atomicNumber: 81,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Lead',
@@ -731,10 +731,10 @@ let elementsArray = [
     type: 'Basic Metal',
     state: '',
     atomicNumber: 82,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Bismuth',
@@ -742,10 +742,10 @@ let elementsArray = [
     type: 'Basic Metal',
     state: '',
     atomicNumber: 83,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Polonium',
@@ -753,10 +753,10 @@ let elementsArray = [
     type: 'Metalloid',
     state: '',
     atomicNumber: 84,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Astatine',
@@ -764,10 +764,10 @@ let elementsArray = [
     type: 'Halogen',
     state: '',
     atomicNumber: 85,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Radon',
@@ -775,10 +775,10 @@ let elementsArray = [
     type: 'Noble Gas',
     state: '',
     atomicNumber: 86,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Francium',
@@ -786,10 +786,10 @@ let elementsArray = [
     type: 'Alkali Metal',
     state: '',
     atomicNumber: 87,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Radium',
@@ -797,10 +797,10 @@ let elementsArray = [
     type: 'Alkaline Earth',
     state: '',
     atomicNumber: 88,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Rutherfordium',
@@ -808,10 +808,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 104,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Dubinium',
@@ -819,10 +819,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 105,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Seaborgium',
@@ -830,10 +830,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 106,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Bohrium',
@@ -841,10 +841,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 107,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Hassium',
@@ -852,10 +852,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 108,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Meitnerium',
@@ -863,10 +863,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 109,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Darmstadtium',
@@ -874,10 +874,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 110,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Roentgenium',
@@ -885,10 +885,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 111,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Copernicium',
@@ -896,10 +896,10 @@ let elementsArray = [
     type: 'Transition Metal',
     state: '',
     atomicNumber: 112,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Ununtrium',
@@ -907,10 +907,10 @@ let elementsArray = [
     type: 'Basic Metal',
     state: '',
     atomicNumber: 113,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Flerovium',
@@ -918,10 +918,10 @@ let elementsArray = [
     type: 'Basic Metal',
     state: '',
     atomicNumber: 114,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Ununpentium',
@@ -929,10 +929,10 @@ let elementsArray = [
     type: 'Basic Metal',
     state: '',
     atomicNumber: 115,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Livermorium',
@@ -940,10 +940,10 @@ let elementsArray = [
     type: 'Basic Metal',
     state: '',
     atomicNumber: 116,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Ununseptium',
@@ -951,10 +951,10 @@ let elementsArray = [
     type: 'Halogen',
     state: '',
     atomicNumber: 117,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Ununoctium',
@@ -962,10 +962,10 @@ let elementsArray = [
     type: 'Noble Gas',
     state: '',
     atomicNumber: 118,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Lanthenum',
@@ -973,10 +973,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 57,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Cerium',
@@ -984,10 +984,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 58,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Praseodymium',
@@ -995,10 +995,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 59,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Neodymium',
@@ -1006,10 +1006,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 60,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Promethium',
@@ -1017,10 +1017,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 61,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Samarium',
@@ -1028,10 +1028,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 62,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Europium',
@@ -1039,10 +1039,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 63,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Gadolinium',
@@ -1050,10 +1050,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 64,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Terbium',
@@ -1061,10 +1061,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 65,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Dysprosium',
@@ -1072,10 +1072,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 66,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Holmium',
@@ -1083,10 +1083,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 67,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Erbium',
@@ -1094,10 +1094,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 68,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Thullum',
@@ -1105,10 +1105,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 69,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Ytterbium',
@@ -1116,10 +1116,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 70,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Lutetium',
@@ -1127,10 +1127,10 @@ let elementsArray = [
     type: 'Lanthanide',
     state: '',
     atomicNumber: 71,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Actinium',
@@ -1138,10 +1138,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 89,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Thorium',
@@ -1149,10 +1149,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 90,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Protactinium',
@@ -1160,10 +1160,10 @@ let elementsArray = [
     type: '',
     state: '',
     atomicNumber: 91,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Uranium',
@@ -1171,10 +1171,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 92,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Neptunium',
@@ -1182,10 +1182,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 93,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Plutonium',
@@ -1193,10 +1193,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 94,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Americium',
@@ -1204,10 +1204,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 95,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Curium',
@@ -1215,10 +1215,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 96,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Berkelium',
@@ -1226,10 +1226,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 97,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Californium',
@@ -1237,10 +1237,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 98,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Einsteinium',
@@ -1248,10 +1248,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 99,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Fermium',
@@ -1259,10 +1259,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 100,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Mendelevium',
@@ -1270,10 +1270,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 101,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Nobelium',
@@ -1281,10 +1281,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 102,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
   {
     element: 'Lawrencium',
@@ -1292,10 +1292,10 @@ let elementsArray = [
     type: 'Actinide',
     state: '',
     atomicNumber: 103,
-    atomicWeight: ,
-    protons: ,
-    neutrons: ,
-    electrons:
+    atomicWeight: undefined,
+    protons: undefined,
+    neutrons: undefined,
+    electrons: undefined
   },
 ]
 
